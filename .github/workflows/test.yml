@@ -1,6 +1,7 @@
 name: Run All Tests with Poetry
 
 on:
+  workflow_dispatch:  # Allows manual triggering in the Actions tab
   push:
   pull_request:
 
